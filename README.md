@@ -9,7 +9,7 @@ An Android library that help you to build app with swipe back gesture.
 
 Demo Apk
 ===
-[GooglePlay](https://play.google.com/store/apps/details?id=me.imid.swipebacklayout.demo)
+[SampleApk](https://github.com/coswind/SwipeBackLayout/raw/master/samples.apk)
 
 
 ##HOW TO
