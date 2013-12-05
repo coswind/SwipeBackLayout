@@ -86,6 +86,9 @@ public class DemoActivity extends SwipeBackActivity implements View.OnClickListe
 ...
 ```
 
+Here is the sample link:
+[Sample Link](https://github.com/coswind/TestSwipeBackLayout)
+
 
 
 Pull Requests
