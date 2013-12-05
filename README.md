@@ -1,4 +1,4 @@
-SwipeBackLayout
+SwipeBackLayout [Android 2.3+]
 ===
 
 An Android library that help you to build app with swipe back gesture.
@@ -12,9 +12,23 @@ Demo Apk
 [GooglePlay](https://play.google.com/store/apps/details?id=me.imid.swipebacklayout.demo)
 
 
-Requirement
-===
-The latest android-support-v4.jar should be referenced by your project.
+##HOW TO
+Simply add the repository to your build.gradle file:
+
+    repositories {
+        maven {
+            url 'https://github.com/coswind/mvn-repo/raw/master/'
+        }
+        mavenCentral()
+    }
+    
+And you can use the artifacts like this:
+
+    dependencies {
+        compile 'com.android.support:support-v4:18.0.0+'
+        compile 'com.actionbarsherlock:actionbarsherlock:4.4.0@aar'
+        compile 'me.imid.swipebacklayout:swipebacklayout:1.1-SNAPSHOT'
+    }
 
 Usage
 ===
