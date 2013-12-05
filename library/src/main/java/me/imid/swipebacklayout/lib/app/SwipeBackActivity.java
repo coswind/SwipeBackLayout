@@ -6,7 +6,9 @@ import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.view.View;
 
-public class SwipeBackActivity extends FragmentActivity implements SwipeBackActivityBase{
+import com.actionbarsherlock.app.SherlockFragmentActivity;
+
+public class SwipeBackActivity extends SherlockFragmentActivity implements SwipeBackActivityBase {
     private SwipeBackActivityHelper mHelper;
 
     @Override
