@@ -1,4 +1,4 @@
-SwipeBackLayout
+SwipeBackLayout [Android 2.3+]
 ===
 
 An Android library that help you to build app with swipe back gesture.
