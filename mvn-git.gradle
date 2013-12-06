@@ -1,17 +1,18 @@
 apply plugin: 'maven'
 
-group = 'me.imid.swipebacklayout'
+version = VERSION_NAME
+group = GROUP
 
 artifacts {
-	archives file('library/build/libs/library-1.1-SNAPSHOT.aar')
+    archives file(ARCHIVE_PATH + ARTIFACT_ID + "-" + VERSION_NAME + ".aar")
 }
 
 uploadArchives {
-	repositories {
-		mavenDeployer {
-			repository(url: "file:///home/coswind/Android/gitrepo/mvn-repo")
-			pom.version  = '1.1-SNAPSHOT'
-			pom.artifactId = 'swipebacklayout'
-		}
-	}
+    repositories {
+        mavenDeployer {
+            repository(url: LOCAL_REPO_URL)
+            pom.version  = version
+            pom.artifactId = ARTIFACT_ID
+        }
+    }
 }
